@@ -1,9 +1,10 @@
 function exibirOsLivrosNaTela(listaDeLivros){
     elementoInserirLivros.innerHTML = "";
     listaDeLivros.forEach(livro =>{
+    var classeDisponibilidade = verificarDisponibilidade(livro);
         elementoInserirLivros.innerHTML += `
         <div class="livro">
-      <img class="livro__imagens" src="${livro.imagem}" alt="${livro.alt}" />
+      <img class="${classeDisponibilidade}" src="${livro.imagem}" alt="${livro.alt}" />
       <h2 class="livro__titulo">
         ${livro.titulo}
       </h2>
