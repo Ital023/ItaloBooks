@@ -1,4 +1,5 @@
 function exibirOsLivrosNaTela(listaDeLivros){
+    elementoInserirLivros.innerHTML = "";
     listaDeLivros.forEach(livro =>{
         elementoInserirLivros.innerHTML += `
         <div class="livro">
