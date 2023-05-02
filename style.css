@@ -21,9 +21,16 @@ body {
 
 .header {
   text-align: center;
-  width: 100%;
   background-color: var(--bg-color);
   margin: 15px 15px;
+
+}
+.titulo--header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
 }
 
 .banner {
