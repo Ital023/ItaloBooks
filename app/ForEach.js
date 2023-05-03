@@ -1,4 +1,7 @@
+var elementoComValorTotalDeLivrosDisponiveis = document.querySelector("#valor_total_livros_disponiveis");
+
 function exibirOsLivrosNaTela(listaDeLivros){
+    elementoComValorTotalDeLivrosDisponiveis.innerHTML = "";
     elementoInserirLivros.innerHTML = "";
     listaDeLivros.forEach(livro =>{
     var classeDisponibilidade = verificarDisponibilidade(livro);

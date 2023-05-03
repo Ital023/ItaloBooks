@@ -1,4 +1,5 @@
 var livrosConvertidos = [];
+var livrosDisponiveis = [];
 var elementoInserirLivros = document.querySelector("#livros");
 
 var endPointLivros = "https://guilhermeonrails.github.io/casadocodigo/livros.json";
@@ -20,3 +21,4 @@ function verificarDisponibilidade(livro){
         return "livros__imagens indisponivel";
     }
 }
+
