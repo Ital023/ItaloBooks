@@ -22,7 +22,8 @@ body {
 .header {
   text-align: center;
   background-color: var(--bg-color);
-  margin: 15px 15px;
+  background: linear-gradient(96.48deg, #002f52 36.3%, #326589 99.56%);
+  padding: 40px;
 
 }
 .titulo--header{
@@ -31,6 +32,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 12px;
+  color: white;
 }
 
 .banner {
